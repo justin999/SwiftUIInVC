@@ -9,6 +9,8 @@
 import SwiftUI
 
 struct CustomView: View {
+    var dismiss: (() -> Void)? = nil
+    
     var body: some View {
         ZStack {
             
@@ -18,6 +20,10 @@ struct CustomView: View {
                 .foregroundColor(.blue)
             
         }
+        .onTapGesture(count: 1, perform: {
+            print("come?")
+            dismiss?()
+        })
         
         
     }
