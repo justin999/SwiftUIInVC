@@ -10,6 +10,7 @@ import SwiftUI
 
 struct CustomView: View {
     var dismiss: (() -> Void)? = nil
+    var buttonTapped: (() -> Void)? = nil
     
     var body: some View {
         ZStack {
@@ -21,12 +22,11 @@ struct CustomView: View {
                 Text("great day")
                     .foregroundColor(.blue)
                 Button(action: {
-                    
+                    buttonTapped?()
                 }) {
                     Text("Button")
                 }
             }
-            
             
         }
         .onTapGesture(count: 1, perform: {

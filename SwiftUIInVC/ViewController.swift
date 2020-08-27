@@ -34,6 +34,7 @@ class CustomViewHostingViewController: UIHostingController<CustomView> {
     override init(rootView: CustomView) {
         super.init(rootView: rootView)
         self.rootView.dismiss = dismiss
+        self.rootView.buttonTapped = buttonTapped
     }
     
     convenience init() {
@@ -43,5 +44,9 @@ class CustomViewHostingViewController: UIHostingController<CustomView> {
     
     func dismiss() {
         dismiss(animated: true, completion: nil)
+    }
+    
+    func buttonTapped() {
+        print("heyheyhey")
     }
 }
