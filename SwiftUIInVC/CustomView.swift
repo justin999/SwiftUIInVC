@@ -16,8 +16,17 @@ struct CustomView: View {
             
             Color.yellow.edgesIgnoringSafeArea(.all)
             
-            Text("great day")
-                .foregroundColor(.blue)
+            VStack {
+                
+                Text("great day")
+                    .foregroundColor(.blue)
+                Button(action: {
+                    
+                }) {
+                    Text("Button")
+                }
+            }
+            
             
         }
         .onTapGesture(count: 1, perform: {
