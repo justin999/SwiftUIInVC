@@ -18,8 +18,6 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
-//        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "Trans")
     
         vc.modalPresentationStyle = .overCurrentContext
         vc.modalTransitionStyle = .crossDissolve

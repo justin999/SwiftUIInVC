@@ -14,7 +14,6 @@ struct CustomView: View {
     
     
     var body: some View {
-//        foregroundColor(.clear)
         ZStack {
             
             Color.black.opacity(0.5).edgesIgnoringSafeArea(.all)
@@ -34,9 +33,6 @@ struct CustomView: View {
             print("come?")
             dismiss?()
         })
-//        .foregroundColor(.clear)
-        
-        
         
     }
 }
