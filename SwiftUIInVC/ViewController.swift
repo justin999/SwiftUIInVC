@@ -11,7 +11,7 @@ import SwiftUI
 
 class ViewController: UIViewController {
     
-    
+    let vc = CustomViewHostingViewController()
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -23,8 +23,6 @@ class ViewController: UIViewController {
     
         vc.modalPresentationStyle = .overCurrentContext
         vc.modalTransitionStyle = .crossDissolve
-        let vc = CustomViewHostingViewController()
-        vc.view.isHidden = false
         self.present(vc, animated: true, completion: nil)
     }
 }
