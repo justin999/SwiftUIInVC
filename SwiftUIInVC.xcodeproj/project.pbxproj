@@ -16,6 +16,7 @@
 		D013BC3C24F74ABE004F7E88 /* SwiftUIInVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013BC3B24F74ABE004F7E88 /* SwiftUIInVCTests.swift */; };
 		D013BC4724F74ABF004F7E88 /* SwiftUIInVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013BC4624F74ABF004F7E88 /* SwiftUIInVCUITests.swift */; };
 		D013BC5524F74ECE004F7E88 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D013BC5424F74ECE004F7E88 /* CustomView.swift */; };
+		D0AD543424F7BC3500FBF030 /* TransparentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AD543324F7BC3500FBF030 /* TransparentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D013BC4624F74ABF004F7E88 /* SwiftUIInVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIInVCUITests.swift; sourceTree = "<group>"; };
 		D013BC4824F74ABF004F7E88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D013BC5424F74ECE004F7E88 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		D0AD543324F7BC3500FBF030 /* TransparentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D013BC2824F74ABE004F7E88 /* ViewController.swift */,
 				D013BC5424F74ECE004F7E88 /* CustomView.swift */,
 				D013BC2A24F74ABE004F7E88 /* Main.storyboard */,
+				D0AD543324F7BC3500FBF030 /* TransparentViewController.swift */,
 				D013BC2D24F74ABE004F7E88 /* Assets.xcassets */,
 				D013BC2F24F74ABE004F7E88 /* LaunchScreen.storyboard */,
 				D013BC3224F74ABE004F7E88 /* Info.plist */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D013BC2924F74ABE004F7E88 /* ViewController.swift in Sources */,
+				D0AD543424F7BC3500FBF030 /* TransparentViewController.swift in Sources */,
 				D013BC5524F74ECE004F7E88 /* CustomView.swift in Sources */,
 				D013BC2524F74ABE004F7E88 /* AppDelegate.swift in Sources */,
 				D013BC2724F74ABE004F7E88 /* SceneDelegate.swift in Sources */,

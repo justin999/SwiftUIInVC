@@ -12,11 +12,12 @@ struct CustomView: View {
     var dismiss: (() -> Void)? = nil
     var buttonTapped: (() -> Void)? = nil
     
+    
     var body: some View {
+//        foregroundColor(.clear)
         ZStack {
             
-            Color.yellow.edgesIgnoringSafeArea(.all)
-            
+            Color.black.opacity(0.5).edgesIgnoringSafeArea(.all)
             VStack {
                 
                 Text("great day")
@@ -33,6 +34,8 @@ struct CustomView: View {
             print("come?")
             dismiss?()
         })
+//        .foregroundColor(.clear)
+        
         
         
     }
